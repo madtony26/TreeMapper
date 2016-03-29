@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TreeMapper\TreeMapper.cs">
+    <Files>
+      <File FileName="TreeMapper\TreeMapperUIPanel.cs" Line="1" Column="1" />
+      <File FileName="TreeMapper\TreeMapper.cs" Line="50" Column="25" />
+      <File FileName="TreeMapper\Loader.cs" Line="1" Column="1" />
+      <File FileName="TreeMapper\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="TreeMapper\BoundingBox.cs" Line="1" Column="1" />
+      <File FileName="TreeMapper\ModInfo.cs" Line="1" Column="1" />
+      <File FileName="c:\Users\Anthony\Documents\Projects\TreeMapper\TreeMapper\TreeCoverClient.cs" Line="1" Column="1" />
+      <File FileName="TreeMapperTester\Main.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="TreeMapper" expanded="True" selected="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>backspinObject.backspin</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

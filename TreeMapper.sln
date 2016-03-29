@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeMapper", "TreeMapper\TreeMapper.csproj", "{47AF5309-3337-4430-8E35-DEB18DBEE8D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeMapperTester", "TreeMapperTester\TreeMapperTester.csproj", "{DB95EDDA-92B5-4F7E-A71F-E0E4FED90EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47AF5309-3337-4430-8E35-DEB18DBEE8D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AF5309-3337-4430-8E35-DEB18DBEE8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AF5309-3337-4430-8E35-DEB18DBEE8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AF5309-3337-4430-8E35-DEB18DBEE8D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB95EDDA-92B5-4F7E-A71F-E0E4FED90EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB95EDDA-92B5-4F7E-A71F-E0E4FED90EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB95EDDA-92B5-4F7E-A71F-E0E4FED90EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB95EDDA-92B5-4F7E-A71F-E0E4FED90EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TreeMapper\TreeMapper.csproj
+	EndGlobalSection
+EndGlobal
