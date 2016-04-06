@@ -7,9 +7,9 @@ namespace TreeMapper {
 		
 		public string Name {
 			get
-			{ 
+			 { 
 				return "Tree Mapper";
-			}
+			 }
 		}
 		
 		public string Description {
