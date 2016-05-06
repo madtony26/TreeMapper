@@ -105,7 +105,7 @@ namespace TreeMapper
 			{
 				tree_manager.CreateTree (out treeNum, ref rr, tree, new Vector3 ((float)x, 0, (float)y), false);
 			}
-			catch(Exception ex)
+			catch//(Exception ex)
 			{
 				//try-catch just to prevent crashing by ignoring invalid trees and letting valid trees get created
 				//RaiseTreeMapperEvent (ex.Message);
