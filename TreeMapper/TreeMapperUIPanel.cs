@@ -42,8 +42,8 @@ namespace TreeMapper
 		UITextField densityTextBox;
 		UILabel densityLabel;
 
-		UIDropDown treeDropdown;
-		UILabel treeLabel;
+//		UIDropDown treeDropdown;
+//		UILabel treeLabel;
 
 		UILabel errorLabel;
 
@@ -81,8 +81,8 @@ namespace TreeMapper
 			densityLabel = AddUIComponent<UILabel>();
 			densityTextBox = AddUIComponent<UITextField>();
 
-			treeLabel = AddUIComponent<UILabel> ();
-			treeDropdown = AddUIComponent<UIDropDown> ();
+//			treeLabel = AddUIComponent<UILabel> ();
+//			treeDropdown = AddUIComponent<UIDropDown> ();
 						
 			errorLabel = AddUIComponent<UILabel>();
 			
@@ -142,8 +142,8 @@ namespace TreeMapper
 			SetTextBox(boundingBoxTextBox, "-84.774950,38.264822,-84.980892,38.103126", x + 120, y);
 			y += vertPadding - 5;
 
-			SetLabel (treeLabel, "Select a Tree:", x, y);
-			InitializeTreeDropwdown (x, y);
+//			SetLabel (treeLabel, "Select a Tree:", x, y);
+//			InitializeTreeDropwdown (x, y);
 			
 			SetButton(importButton, "Import Trees using Parameters", y);
 			importButton.eventClick += importButton_eventClick;
@@ -217,16 +217,15 @@ namespace TreeMapper
 
 		private void InitializeTreeDropwdown(int x, int y)
 		{
-			IEnumerable<string> treeNames = new List<string> (){"Tree1", "Tree2","Tree3"};
-
-			try {
-				TreeCollection treeCollection = GameObject.FindObjectOfType<TreeCollection> ();
-				IEnumerable<TreeInfo> treeInfos = treeCollection.m_prefabs;
-				treeNames = (from TreeInfo treeInfo in treeInfos
-				             select treeInfo.name);
-				InitializeDropdown (treeDropdown, treeNames, x, y);
-			} catch {
-			}
+//			IEnumerable<string> treeNames = new List<string> ();
+//
+//			TreeCollection treeCollection = GameObject.FindObjectOfType<TreeCollection>();
+//			IEnumerable<TreeInfo> treeInfos = treeCollection.m_prefabs;
+//
+//			treeNames = (from TreeInfo treeInfo in treeInfos
+//			             select treeInfo.name);
+//
+//			InitializeDropdown (treeDropdown, treeNames, x, y);
 		}
 		
 		private void SetButton(UIButton okButton, string p1,int x, int y)
